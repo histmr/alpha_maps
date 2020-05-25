@@ -1,0 +1,22 @@
+Package: alphamaps
+Title: Converts spatial points to grouped alpha shape coordinates for polygons
+Version: 0.5
+Authors@R: 
+    person(given = "Mark",
+           family = "Ravina",
+           role = c("aut", "cre"),
+           email = "mark.ravina@austinutexas.edu")
+Description: This function takes as series of lon lat (or other spatials) points and returns a data frame with the coordinates and group membership of an alpha shape.
+Imports: 
+    data.table (>= 1.12.8),
+    alphahull (>= 2.2),
+    igraph (>= 1.2.5)
+Suggests:
+    ggplot2,
+    knitr,
+    rmarkdown
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
