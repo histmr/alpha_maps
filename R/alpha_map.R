@@ -9,6 +9,7 @@
 #' @import alphahull
 #' @import igraph
 #' @import data.table
+#' @export
 
 
 

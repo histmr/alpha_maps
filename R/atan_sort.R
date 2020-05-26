@@ -2,6 +2,7 @@
 #' This function returns ordered segments for a polygon
 #'
 #' @param df A two column dataframe or matrix with spatial coordinates
+#' @export
 
 
 
